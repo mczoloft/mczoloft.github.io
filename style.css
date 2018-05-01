@@ -1,10 +1,10 @@
 body {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
     box-sizing: border-box;
     width: 90%;
     margin: 5%;
-    color: lightgreen;
+    color: black;
     font-family: 'Proza Libre';
     background-color: snow;
 }
@@ -31,4 +31,14 @@ small {
     border-top: 3px solid turquoise;
     padding-top: 10px;
     color: black;
+}
+.code_eg{
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: turquoise;
+    background-color: white;
+    text-decoration: none;
 }

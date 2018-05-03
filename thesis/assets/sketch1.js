@@ -131,6 +131,10 @@ DataDictionary('data/cs_test.txt', rawdata, dictionary1, wordCount, '#viz1', 'fl
 
 DataDictionary('data/languages.txt', rawdata2, dictionary2, wordCount2, '#viz2', 'flex-start');
 
+DataDictionary('data/cs_test.txt', rawdata3, dictionary3, wordCount3, '#viz3', 'flex-end');
+
+DataDictionary('data/languages.txt', rawdata4, dictionary4, wordCount4, '#viz4', 'flex-start');
+
 // var g = d3.select('#viz2')
 // .append('svg')
 // .attr('width', '99%')

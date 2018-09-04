@@ -51,8 +51,8 @@ The HTML was made simple enough: I've decided to focus during development time o
 
 I have 2 Javascript files. One is the Main one, called script.js, the other one is BarChart.js. 
 
-1. script.js – This one initiates new BarChart objects, from the BarChart.js, and it also run methods related to these new Objects. It then loads our main Data, draws the main parallel coordinates, styles it and groups everything. It also creates run an Update method for the Bar Chart objects when we interact with the lines. https://github.com/pessoaflavio/major-studio-01/blob/master/assignments/04UserCases/script.js
-2. BarChart.js – Deals with all the drawing of the secondary bar chart, and it also creates the functions that will be called in the main script. https://github.com/pessoaflavio/major-studio-01/blob/master/assignments/04UserCases/BarChart.js
+1. script.js – This one initiates new BarChart objects, from the BarChart.js, and it also run methods related to these new Objects. It then loads our main Data, draws the main parallel coordinates, styles it and groups everything. It also creates run an Update method for the Bar Chart objects when we interact with the lines. [https://github.com/pessoaflavio/major-studio-01/blob/master/assignments/04UserCases/script.js]()
+2. BarChart.js – Deals with all the drawing of the secondary bar chart, and it also creates the functions that will be called in the main script. [https://github.com/pessoaflavio/major-studio-01/blob/master/assignments/04UserCases/BarChart.js]()
 
 The main script was all developed out of the box, and the BarChart update pattern was based on an online example that needed to be updated to D3 v4 and fitted to specifics of the visualization. 
 

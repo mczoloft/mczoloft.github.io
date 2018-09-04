@@ -1,6 +1,6 @@
 # The relationship between ECI, GDP and Gini
 
-
+![](https://raw.githubusercontent.com/pessoaflavio/pessoaflavio.github.io/master/hive/ScreenShot.png)
 
 The UNDP’s Regional Bureau for Africa and The New School developed a partnership where students from the MSc in Data Visualization work to tackle new ways of seeing inequality and how it works in different scenarios.
 

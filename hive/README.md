@@ -1,6 +1,7 @@
 # The relationship between ECI, GDP and Gini
 
 
+
 The UNDP’s Regional Bureau for Africa and The New School developed a partnership where students from the MSc in Data Visualization work to tackle new ways of seeing inequality and how it works in different scenarios.
 
 In Fall 2017, my class were given the task to create new projects with data from the UNDP report *Income Inequality Trends in sub-Saharan Africa*. The idea behind it was to enhance knowledge and interest on the theme.
@@ -35,10 +36,10 @@ The look and feel were driven more from a practical point, where I developed a c
 ### SCOPE
 The brief of the partnership was open enough, so every person could suggest a specific theme, and how to develop it. It was during the last past of the Semester, around 2 months, between:
 
-1. Choosing a theme – That was a simple task: after reading the report, I've decided to pick something that was challenging enough to explain to others (the ECI)
+1. Choosing a theme – That was a simple task: after reading the report, I've decided to pick something that was challenging enough to explain to others (the ECI)
 2. Reading about it, finding data sources and exploring more context – After picking it, we've cleared with the UNDP communication contact, to see if everything was interesting and connected enought with the project. That led to more research on the ECI, but in the end I was more interested in *showing* data influence, not explaining it verbally. This was a nice constrain for me, to grasp the concept in a more intuitive way. It also meant that I had to find more data sources, and to check their quality and integrity between our group and UNDP as well. This was one of the most crucial points, because it drove the development of the actual final product.
 3. Iterations and sketches – They were done around 2 to 3 weeks of coming back and forth with roughs and more full-out specs, and also some feedback with our UNDP contact. Design time was also helpful in creating a more realistic mock-up that was loaded as an SVG initially, to understand limits to legibility and to understand interactive features as well.
-4. Coding and production – The design specs were done to make things as quick as possible. The final deliverable was a functional web application, with real data, to be presented to a group of stakeholders (the UNDP office, including the chief economist responsible for the report). Also, limiting the scope of my original question (what does the ECI does to other data?) made things more approachable on the size of the dataset, what needed to be delivered and technologies needed. I've made also a choice of dealing with just a regular full-size version, since it made more sense to have something working good on one resolution.
+4. Coding and production – The design specs were done to make things as quick as possible. The final deliverable was a functional web application, with real data, to be presented to a group of stakeholders (the UNDP office, including the chief economist responsible for the report). Also, limiting the scope of my original question (what does the ECI does to other data?) made things more approachable on the size of the dataset, what needed to be delivered and technologies needed. I've made also a choice of dealing with just a regular full-size version, since it made more sense to have something working good on one resolution.
 
 ### DEVELOPMENT AND CODING
 
@@ -50,8 +51,8 @@ The HTML was made simple enough: I've decided to focus during development time o
 
 I have 2 Javascript files. One is the Main one, called script.js, the other one is BarChart.js. 
 
-1. script.js – This one initiates new BarChart objects, from the BarChart.js, and it also run methods related to these new Objects. It then loads our main Data, draws the main parallel coordinates, styles it and groups everything. It also creates run an Update method for the Bar Chart objects when we interact with the lines.
-2. BarChart.js – Deals with all the drawing of the secondary bar chart, and it also creates the functions that will be called in the main script.
+1. script.js – This one initiates new BarChart objects, from the BarChart.js, and it also run methods related to these new Objects. It then loads our main Data, draws the main parallel coordinates, styles it and groups everything. It also creates run an Update method for the Bar Chart objects when we interact with the lines. https://github.com/pessoaflavio/major-studio-01/blob/master/assignments/04UserCases/script.js
+2. BarChart.js – Deals with all the drawing of the secondary bar chart, and it also creates the functions that will be called in the main script. https://github.com/pessoaflavio/major-studio-01/blob/master/assignments/04UserCases/BarChart.js
 
 The main script was all developed out of the box, and the BarChart update pattern was based on an online example that needed to be updated to D3 v4 and fitted to specifics of the visualization. 
 
